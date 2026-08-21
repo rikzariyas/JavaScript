@@ -16,11 +16,12 @@ fruit.sort() //sort in alpha order
 // console.log( fruit.isArray("apple"))
 
 let num =[1,2,3,4,5,6]
-let num2 = num.slice(1,5) // slice
+let num2 = num.slice(1,5) // slice make a copy of array and make changes
+let num3 = num.splice(1,5) // this will effect orginal array 
 num.reverse() //reverse
 console.log(Array.isArray(10))
 console.log(num)
 console.log(num2)
-
+console.log(num3)
 console.log(typeof(fruit[4]))
 console.log(fruit)
