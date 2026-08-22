@@ -21,21 +21,32 @@ do{
 }while(x<=10);
 
 // for of loop
+
+let str ="javascript"
+for(let i of str){         //using string
+    console.log(i)
+}
+
 let fruit = ["apple","banana","orange","grapes"];
-for(let fruit of fruits){
+for(let fruit of fruits){      //using array
 console.log(fruit);
 }
 
 // for in loop
  let person = {
     name: "Rikza",
-    age: 22,
+    age: 22,               //in object
     city: "Kerala"
  };
 for(let key in person){
 console.log(key);
 console.log(person[key]);
  }
+
+ let skill = ["html","css","java","javascript"];
+for(let index in skill){               // in array
+console.log(index);
+}
 
 //Foreach in loop
 const fruits = ["apple", "banana", "orange"];

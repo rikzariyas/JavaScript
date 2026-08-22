@@ -34,3 +34,11 @@ z = "37" + 7; // "377"
 console.log({}+[])//object object
 
 console.log(true+true)//2
+
+
+// const fruit = ["apple","banana","orange","grapes",123]
+// delete arr[0];
+// for (let i = 0; i<arr.length; i++){
+//    arr[i] = arr[i+1];
+// }
+//  arr.length =arr.length -1
