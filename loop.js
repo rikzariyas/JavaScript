@@ -1,3 +1,29 @@
+//if condition
+let age = 20; 
+if (age >= 18) { 
+    console.log("You are an adult");
+}
+
+// if else condition
+let age = 16; 
+if (age >= 18) { 
+    console.log("You are an adult"); 
+} else { 
+    console.log("You are a minor"); 
+}
+
+//else if condition
+let marks = 75; 
+if (marks >= 90) { 
+    console.log("A+ Grade"); 
+} else if (marks >= 75) { 
+    console.log("A Grade"); 
+} else if (marks >= 50) { 
+    console.log("B Grade"); 
+} else { 
+    console.log("Fail");
+}
+
 // for loop
 for(let i =1; i<=10; i++){
 console.log(i);
@@ -5,6 +31,21 @@ console.log(i);
 for(let i =1; i<=5 ; i++){
     console.log("hello world!");
 }
+
+//switch condition
+//Compares one value with multiple cases.
+let day = 2; 
+switch (day) { 
+    case 1: console.log("Monday"); 
+    break;  //Completely stops a loop or switch.
+    case 2: console.log("Tuesday");
+    break; 
+    case 3: console.log("Wednesday"); 
+    break; 
+    default: console.log("Invalid day");
+}
+
+//continue -> Skips the current loop iteration and continues with the next one.
 
 // while loop
 let i = 1
